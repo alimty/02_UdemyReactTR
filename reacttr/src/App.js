@@ -10,15 +10,12 @@ class App extends Component {
 
     return (
       <div className="container" >
-       <h4>App Component opps</h4>
-       <p> Some some some things etc  </p>
-       <Navbar title = "This data from App.js" />
+       <Navbar title = "This data coming from App.js fro 1st Navbar" />
        <hr/>
-       <h4> App Component opps</h4>
        <User
         name = "Karl"
-        salary = "50k"
         department = "Science"
+        salary = "50k"
         />
        <hr/>
        <User
@@ -31,6 +28,5 @@ class App extends Component {
   );
   }
 }
-
 
 export default App;
