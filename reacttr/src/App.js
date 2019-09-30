@@ -2,23 +2,43 @@ import React, { Component } from 'react';
 import User from "./components/User";
 import Navbar from "./components/Navbar";
 import './App.css';
+// import Users from "./components/Users";
 
 class App extends Component {
+  state = {
+
+    users: [
+      {
+        id : 1,
+        name : " Jaun Paul Opas",
+        salary : "5000",
+        department : "IT"
+      },
+      {
+        id : 2,
+        name : " Amilie Mamour",
+        salary : "10000",
+        department : "Sales"
+      },
+      {
+        id : 3,
+        name : "Jonas Ginger",
+        salary : "5000",
+        department : "Production"
+      }
+    ]
+  }
 
   render () {
 
-
     return (
       <div className="container" >
-       <h4>App Component opps</h4>
-       <p> Some some some things etc  </p>
-       <Navbar title = "This data from App.js" />
+       <Navbar title = "This data coming from App.js fro 1st Navbar" />
        <hr/>
-       <h4> App Component opps</h4>
        <User
         name = "Karl"
-        salary = "50k"
         department = "Science"
+        salary = "50k"
         />
        <hr/>
        <User
@@ -31,6 +51,5 @@ class App extends Component {
   );
   }
 }
-
 
 export default App;
