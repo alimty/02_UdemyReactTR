@@ -1,7 +1,9 @@
 
 # dependencies
-node_modules
+/node_modules
 
 
 # others
-api
+/api
+
+.vscode
