@@ -6,4 +6,4 @@
 # others
 /api
 
-.vscode
+*.vscode
