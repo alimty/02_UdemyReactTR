@@ -6,7 +6,7 @@ class Users extends Component {
 
   render() {
     const {users} = this.props;
-    
+
     return (
       <div>
 
